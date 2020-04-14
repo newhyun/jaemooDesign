@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+    <title>개발 문의</title>
+    
+    <link rel="stylesheet" href="css/styile.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script type="application/javascript">
+        
+        
+//        var design1 = $("input:radio[name='design1']:checked").val();
+
+    </script>
+    
+</head>
+<body>
+    <div id="container">
+        <div class="topBox cf">
+            <header id="header">
+                <h1>
+                    <img src="images/main_logo.png" alt="로고"/>
+                </h1>
+            </header>
+            <div class="mainImg cf">
+                <img src="images/main_backing.png" alt="메인이미지"/>
+            </div>
+        </div>
+        <!---->
+        <div class="mainBox cf">
+            <div class="box1 s_box cf">
+                <h2>출시 플랫폼</h2>
+                <div class="box1_1 cf">
+                   <input type="radio" name="platform" id="platform1" class="aaaa1" value="130" checked>
+                    <label for="platform1">
+                        <p>반응형웹</p>
+                        <p class="price">(곱)1.3배</p>
+                        <span>PC와 모바일에서 모두 대응 가능하도록 제작하며 네이티브보다는 모바일에서 사용성이 떨어집니다.</span> 
+                    </label> 
+                </div>
+                 <div>
+                    <input type="radio" name="platform" id="platform2" class="aaaa1" value="150">
+                     <label for="platform2">
+                        <p>모바일 웹앱</p>
+                         <p class="price">(곱)1.5배</p>
+                        <span>모바일에 최적화하여 네이티브와 유사한 동작으로 제작됩니다.</span> 
+                    </label>
+                </div>
+            </div>
+            <!--2-->
+<!--
+             <select id="discount">
+                    <option value="130">1111111</option>
+                    <option value="150">2222</option>
+                </select>
+-->
+            <div class="box2 s_box cf">
+                <h2>UI/UX 페이지</h2>
+                <div class="box2_1 cf">
+                    <input type="radio" name="design" id="design1" value="3000000">
+                    <label for="design1">
+                        <p>20페이지 이내</p>
+                        <p class="price">3,000,000</p>
+                        <span>알파버전 수준의 플랫폼</span> 
+                    </label> 
+                </div>
+                <div class="box2_2 cf">
+                    <input type="radio" name="design" id="design2" value="5000000">
+                    <label for="design2">
+                        <p>20 ~ 30페이지</p>
+                         <p class="price">5,000,000</p>
+                        <span>베타버전 수준의 플랫폼</span> 
+                    </label> 
+                </div>
+                <div class="box2_3 cf">
+                    <input type="radio" name="design" id="design3" value="9000000">
+                    <label for="design3">
+                        <p>30 ~ 50페이지</p>
+                         <p class="price">9,000,000</p>
+                        <span>정식버전 </span> 
+                    </label> 
+                </div>
+                <div class="box2_4 cf">
+                    <input type="radio" name="design" id="design4" value="12000000">
+                    <label for="design4">
+                        <p>50페이지 이상</p>
+                         <p class="price">12,000,000</p>
+                        <span>복잡한 플랫폼</span> 
+                    </label> 
+                </div>
+            </div>
+            <!--3-->
+            <div class="box3 ryu1 s_box cf">
+                <h2>관리자 기능구현(복수선택)</h2>
+                <div class="cf">
+                    <input type="checkbox" name="function1" id="function1_1" value="2000000">
+                    <label for="function1_1">
+                        <p class="font">기본 조회/편집 기능 (필수)</p>
+                        <p class="price">2,000,000</p>
+                        <span>데이터 조회/검색/편집/삭제 기능</span> 
+                    </label> 
+                </div>
+                <div class="box3_2 cf">
+                    <input type="checkbox" name="function1" id="function1_2" value="3000000">
+                    <label for="function1_2">
+                        <p>재고관리</p>
+                        <p class="price">3,000,000</p>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="function1" id="function1_3" value="2000000">
+                    <label for="function1_3">
+                        <p>배송관리</p>
+                        <p class="price">2,000,000</p>
+                    </label> 
+                </div>
+                <div class="box3_4 cf">
+                    <input type="checkbox" name="function1" id="function1_4" value="1500000">
+                    <label for="function1_4">
+                        <p>일간/주간 통계</p>
+                        <p class="price">1,500,000</p>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="function1" id="function1_5" value="2000000">
+                    <label for="function1_5">
+                        <p>판매자 정산</p>
+                        <p class="price">2,000,000</p>
+                        <span>월간으로 정산 금액을 계산/표기하는 기능</span> 
+                    </label> 
+                </div>
+                <div class="box3_6 cf">
+                    <input type="checkbox" name="function1" id="function1_6" value="1000000">
+                    <label for="function1_6">
+                        <p>엑셀 임포트</p>
+                        <p class="price">1,000,000</p>
+                        <span>많은 데이터를 한번에 엑셀을 통하여 업로드</span> 
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="function1" id="function1_7" value="1000000">
+                    <label for="function1_7">
+                        <p>엑셀 익스포트</p>
+                        <p class="price">1,000,000</p>
+                        <span>테이터를 열람하기 편한 형태로 엑셀로 내려받는 기능</span> 
+                    </label> 
+                </div>
+                <div class="box3_8 cf">
+                    <input type="checkbox" name="function1" id="function1_8" value="2000000">
+                    <label for="function1_8">
+                        <p>어드민 권한</p>
+                        <p class="price">2,000,000</p>
+                        <span>이용자별로 메뉴 접근/편집 권한을 분리해야하는 경우</span> 
+                    </label> 
+                </div>
+            </div>
+            <!--4-->
+            <div class="box4 ryu1 s_box cf">
+                <h2>편집/업로드 기능(복수선택)</h2>
+                <div class="cf">
+                    <input type="checkbox" name="function2" id="function2_1" value="500000">
+                    <label for="function2_1">
+                        <p>문서 첨부</p>
+                        <p class="price">500,000</p>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="function2" id="function2_2" value="1000000">
+                    <label for="function2_2">
+                        <p>이미지 첨부</p>
+                        <p class="price">1,000,000</p> 
+                    </label> 
+                </div>
+                <div class="box4_3 cf">
+                    <input type="checkbox" name="function2" id="function2_3" value="5000000">
+                    <label for="function2_3">
+                        <p>음성/영상 서버 인코딩</p>
+                        <p class="price">5,000,000</p>
+                        <span>다양한 환경에서 재생하기 위해 서버 인코딩 과정으 거쳐야 하는 경우</span> 
+                    </label> 
+                </div>
+                <div class="box4_4 cf">
+                    <input type="checkbox" name="function2" id="function2_4" value="3000000">
+                    <label for="function2_4">
+                        <p class="font">음성/영상 업로드 및 스트리밍</p>
+                        <p class="price">3,000,000</p>
+                        <span>서버설정, 스토리지 세팅 등이 필요하고 트래픽 비용이 크게 발생</span> 
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="function2" id="function2_5" value="500000">
+                    <label for="function2_5">
+                        <p>유튜브/비메오 영상 임베드</p>
+                        <p class="price">500,000</p>
+                        <span>기존영상 솔루션의 비디오를 임베드만 하는 경우</span> 
+                    </label> 
+                </div>
+                <div class="box4_6 cf">
+                    <input type="checkbox" name="function2" id="function2_6" value="1000000">
+                    <label for="function2_6">
+                        <p>태그 자동완성</p>
+                        <p class="price">1,000,000</p>
+                        <span>해시태그 등의 자동완성 기능</span> 
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="function2" id="function2_7" value="1500000">
+                    <label for="function2_7">
+                        <p>그래프표시</p>
+                        <p class="price">1,500,000</p>
+                        <span>바차트, 파이차트, 라인차트 등의 그래프</span> 
+                    </label> 
+                </div>
+            </div>
+            <!---->
+            <div class="box5 ryu1 s_box cf">
+                <h2>캘린더 기능(복수선택)</h2>
+                <div class="box5_1 cf">
+                    <input type="checkbox" name="calendar" id="calendar1" value="500000">
+                    <label for="calendar1">
+                        <p>일정 표시</p>
+                        <p class="price">500,000</p>
+                        <span>편집기능없이 입력한 일정을 표시만 하는 경우</span> 
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="calendar" id="calendar2" value="2000000">
+                    <label for="calendar2">
+                        <p>일정 등록</p>
+                        <p class="price">2,000,000</p>
+                        <span>원하는 날짜/시간대에 일정을 등록 하는 경우</span> 
+                    </label> 
+                </div>
+            </div>
+            <!--5-->
+            <div class="box6 ryu1 s_box cf">
+                <h2>보안/백업 기능(복수선택)</h2>
+                <div class="cf">
+                    <input type="checkbox" name="security" id="security1_1" value="500000">
+                    <label for="security1_1">
+                        <p>HTTPS 적용</p>
+                        <p class="price">500,000</p>
+                        <span>개인정보를 입력받는 경우 필수적으로 HTTPS로 셋업이 되어야 합니다</span> 
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="security" id="security1_2" value="1000000">
+                    <label for="security1_2">
+                        <p>중요정보 암호화</p>
+                        <p class="price">1,000,000</p>
+                        <span>사용자의 민감한 개인정보를 암호화여 저장합니다</span> 
+                    </label> 
+                </div>
+                <div class="box6_3 cf">
+                    <input type="checkbox" name="security" id="security1_3" value="500000">
+                    <label for="security1_3">
+                        <p>데이터베이스 백업</p>
+                        <p class="price">500,000</p>
+                    </label> 
+                </div>
+            </div>
+            <!--6-->
+            <div class="box16 ryu1 s_box cf">
+                <h2>서버세팅(필수선택)</h2>
+                <div class="cf">
+                    <input type="radio" name="security2" id="security2_1" value="1000000">
+                    <label for="security2_1">
+                        <p>AWS(아마존웹서비스)</p>
+                        <p class="price">1,000,000</p>
+                        <span>개인정보를 입력받는 경우 필수적으로 HTTPS로 셋업이 되어야 합니다</span> 
+                    </label> 
+                </div>
+            </div>
+            <!--7-->
+            <div class="box7 ryu1 s_box cf">
+                <h2>회원가입/로그인(복수선택)</h2>
+                <div class="cf">
+                    <input type="checkbox" name="login" id="login_1" value="1000000">
+                    <label for="login_1">
+                        <p>이메일 가입/로그인</p>
+                        <p class="price">1,000,000</p>
+                        <span>이메일을 통한 비밀번호 재설정 등의 기능이 포함됩니다</span> 
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="login" id="login_2" value="500000">
+                    <label for="login_2">
+                        <p>이메일 인증</p>
+                        <p class="price">500,000</p>
+                        <span>가입한 이메일로 확인링크가 발송된 후 해당 링크를 클릭해야 로그인이 가능합니다</span> 
+                    </label> 
+                </div>
+                <div class="box7_3 cf">
+                    <input type="checkbox" name="login" id="login_3" value="1000000">
+                    <label for="login_3">
+                        <p>휴대폰 인증</p>
+                        <p class="price">1,000,000</p>
+                        <span>인증시 1건당 비용이 발생합니다</span> 
+                    </label> 
+                </div>
+                <div class="box7_4 cf">
+                    <input type="checkbox" name="login" id="login_4" value="500000">
+                    <label for="login_4">
+                        <p>카카오톡 로그인</p>
+                        <p class="price">500,000</p>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="login" id="login_5" value="500000">
+                    <label for="login_5">
+                        <p>페이스북 로그인</p>
+                        <p class="price">500,000</p>
+                    </label> 
+                </div>
+                <div class="box7_6 cf">
+                    <input type="checkbox" name="login" id="login_6" value="500000">
+                    <label for="login_6">
+                        <p>구글 로그인</p>
+                        <p class="price">500,000</p>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="login" id="login_7" value="500000">
+                    <label for="login_7">
+                        <p>네이버 로그인</p>
+                        <p class="price">500,000</p>
+                    </label> 
+                </div>
+                <div class="box7_8 cf">
+                    <input type="checkbox" name="login" id="login_8" value="1000000">
+                    <label for="login_8">
+                        <p>실명 인증</p>
+                        <p class="price">1,000,000</p>
+                        <span>실제 본인인지 생년월일과 휴대폰 번호등을 함께 인증합니다. 인증시 1건당 비용이 발생합니다</span> 
+                    </label> 
+                </div>
+                <div class="box7_9 cf">
+                    <input type="checkbox" name="login" id="login_9" value="2000000">
+                    <label for="login_9">
+                        <p>구매자/판매자 분리</p>
+                        <p class="price">2,000,000</p>
+                        <span>O2O 또는 마켓의 경우 로그인 했을때 구매자와 판매자가 분리됩니다</span> 
+                    </label> 
+                </div>
+            </div>
+            <!--8-->
+            <div class="box8 ryu1 s_box cf">
+                <h2>알림 기능(복수선택)</h2>
+                <div class="cf">
+                    <input type="checkbox" name="notify" id="notify_1" value="1000000">
+                    <label for="notify_1">
+                        <p>전체 푸시알림</p>
+                        <p class="price">1,000,000</p>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="notify" id="notify_2" value="3000000">
+                    <label for="notify_2">
+                        <p>사용자별 푸시알림</p>
+                        <p class="price">3,000,000</p>
+                        <span>사용자별 디바이스 토큰을 서버에 저장하여 발송하는 경우</span>
+                    </label> 
+                </div>
+                <div class="box8_3 cf">
+                    <input type="checkbox" name="notify" id="notify_3" value="3000000">
+                    <label for="notify_3">
+                        <p>내 알림 내역</p>
+                        <p class="price">3,000,000</p>
+                        <span>친구 초대가 왔거나 내 글에 좋아요가 달렸다는 등의 알림 내역을 표시하는 경우</span>
+                    </label> 
+                </div>
+                <div class="box8_4 cf">
+                    <input type="checkbox" name="notify" id="notify_4" value="500000">
+                    <label for="notify_4">
+                        <p>SMS 알림</p>
+                        <p class="price">500,000</p>
+                        <span>1건당 비용이 발생할 수 있습니다</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="notify" id="notify_5" value="1000000">
+                    <label for="notify_5">
+                        <p>이메일 알림</p>
+                        <p class="price">1,000,000</p>
+                        <span>알림 디자인이 필요한 경우 비용이 추가됩니다</span>
+                    </label> 
+                </div>
+                <div class="box8_6 cf">
+                    <input type="checkbox" name="notify" id="notify_6" value="1000000">
+                    <label for="notify_6">
+                        <p>카카오톡 알림</p>
+                        <p class="price">1,000,000</p>
+                    </label> 
+                </div>
+            </div>
+            <!--9-->
+            <div class="box9 ryu1 s_box cf">
+                <h2>소셜 기능(복수선택)</h2>
+                <div class="cf">
+                    <input type="checkbox" name="notice" id="notice_1" value="1000000">
+                    <label for="notice_1">
+                        <p>1:1문의</p>
+                        <p class="price">1,000,000</p>
+                        <span>일반적인 게시판이 아닌, 특정 관리자만 볼수있는 기능</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="notice" id="notice_2" value="5000000">
+                    <label for="notice_2">
+                        <p>채팅</p>
+                        <p class="price">5,000,000</p>
+                        <span>채팅의 복잡도에 따라 개발 비용이 차이 납니다</span>
+                    </label> 
+                </div>
+                <div class="box9_3 cf">
+                    <input type="checkbox" name="notice" id="notice_3" value="1000000">
+                    <label for="notice_3">
+                        <p>앱 공유기능</p>
+                        <p class="price">1,000,000</p>
+                        <span>페이스북, 카카오톡 등 공유하기 기능</span>
+                    </label> 
+                </div>
+            </div>
+            <!--10-->
+            <div class="box10 ryu1 s_box cf">
+                <h2>네이티브 기능(복수선택)</h2>
+                 <div class="cf">
+                    <input type="checkbox" name="native" id="native_1" value="3000000">
+                    <label for="native_1">
+                        <p>백그라운드 위치추적</p>
+                        <p class="price">3,000,000</p>
+                        <span>앱이 활성화되지 않은 상태에서도 현재위치를 내앱에 저장하거나 서버로 전송합니다</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="native" id="native_2" value="3000000">
+                    <label for="native_2">
+                        <p>QR/바코드 인식</p>
+                        <p class="price">3,000,000</p>
+                    </label> 
+                </div>
+                <div class="box10_3 cf">
+                    <input type="checkbox" name="native" id="native_3" value="5000000">
+                    <label for="native_3">
+                        <p>보상형 광고</p>
+                        <p class="price">5,000,000</p>
+                        <span>리워드 제공을 위해 앱 설치, 광고 조회등을 추적</span>
+                    </label> 
+                </div>
+            </div>
+            <!--11-->
+            <div class="box11 ryu1 s_box cf">
+                <h2>지도 기능(복수선택)</h2>
+                 <div class="cf">
+                    <input type="checkbox" name="map" id="map_1" value="500000">
+                    <label for="map_1">
+                        <p>지도에 핀을 단순표시</p>
+                        <p class="price">500,000</p>
+                        <span>특정좌표 표시</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="map" id="map_2" value="2000000">
+                    <label for="map_2">
+                        <p>지도위에 UI표시</p>
+                        <p class="price">2,000,000</p>
+                        <span>해당 위치에 대한 간략한 정보등을 팝업으로 구현</span>
+                    </label> 
+                </div>
+                <div class="box10_3 cf">
+                    <input type="checkbox" name="map" id="map_3" value="5000000">
+                    <label for="map_3">
+                        <p>지도와 검색 결과 연동</p>
+                        <p class="price">5,000,000</p>
+                        <span>줌레벨, 중심점 이동 등이 자동으로 연동</span>
+                    </label> 
+                </div>
+            </div>
+            <!--12-->
+            <div class="box12 ryu1 s_box cf">
+                <h2>결제 기능(복수선택)</h2>
+                 <div class="cf">
+                    <input type="checkbox" name="payment" id="payment_1" value="1000000">
+                    <label for="payment_1">
+                        <p>카드 결제</p>
+                        <p class="price">1,000,000</p>
+                        <span>국내 PG사를 통해 카드 결제를 연동하는 방식</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="payment" id="payment_3" value="1000000">
+                    <label for="payment_3">
+                        <p>매월 자동 결제</p>
+                        <p class="price">1,000,000</p>
+                        <span>매월 자동 결제 방식</span>
+                    </label> 
+                </div>
+            </div>
+            <!--13-->
+            <div class="box13 s_box cf">
+                <h2>다국어 기능(복수선택)</h2>
+                 <div class="cf">
+                    <input type="checkbox" name="language" class="dddd1" id="language_1" value="3000000">
+                    <label for="language_1">
+                        <p>메뉴명 처리</p>
+                        <p class="price">3,000,000</p>
+                        <span>데이터베이스는 다국어를 고려하지 않고 메뉴명 및 사이트 문구만 다국어로 처리됩니다</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="language" class="dddd1" id="language_2" value="5000000">
+                    <label for="language_2">
+                        <p>데이터 처리</p>
+                       <p class="price">5,000,000</p>
+                        <span>데이터베이스를 다국어로 표시합니다</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="language" class="dddd1" id="language_3" value="8000000">
+                    <label for="language_3">
+                        <p>국가별 프로젝트</p>
+                        <p class="price">8,000,000</p>
+                        <span>각국 언어별로 프로젝트를 다른 서버/DB에 관리합니다</span>
+                    </label> 
+                </div>
+                <div class="box13_4 cf">
+                    <input type="checkbox" name="language" class="dddd1" id="language_4" value="3000000">
+                    <label for="language_4">
+                        <p>사용자 국가별 타임존 적용</p>
+                        <p class="price">3,000,000</p>
+                        <span>다양한 국가의 사용자 대상으로 각 사용자의 타임존 설정이 필요한 경우</span>
+                    </label> 
+                </div>
+            </div>
+            <!--14-->
+            <div class="box14 ryu1 s_box cf">
+                <h2>외부 API 및 크롤링(복수선택)</h2>
+                 <div class="cf">
+                    <input type="checkbox" name="api" id="api_1" value="1000000">
+                    <label for="api_1">
+                        <p>단순 API연동</p>
+                        <p class="price">1,000,000</p>
+                        <span>주고받는 데이터가 단순한경우</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="api" id="api_2" value="3000000">
+                    <label for="api_2">
+                        <p>복잡한 API연동</p>
+                       <p class="price">3,000,000</p>
+                        <span>주고받는 데이터가 복잡한경우</span>
+                    </label> 
+                </div>
+                <div class="box14_3 cf">
+                    <input type="checkbox" name="api" id="api_3" value="5000000">
+                    <label for="api_3">
+                        <p>주기적 API 데이터 싱크</p>
+                        <p class="price">5,000,000</p>
+                        <span>주기적으로 수집해 DB에 저장하는 경우</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="api" id="api_4" value="2000000">
+                    <label for="api_4">
+                        <p>서버 크롤링</p>
+                        <p class="price">2,000,000</p>
+                        <span>수집대상이 크롤링 서버 IP를 블락하거나 크롤링 페이지의 복잡도가 높은 경우 추가비용 발생</span>
+                    </label> 
+                </div>
+                <div class="cf">
+                    <input type="checkbox" name="api" id="api_5" value="2000000">
+                    <label for="api_5">
+                        <p>브러우져 크롤링</p>
+                        <p class="price">2,000,000</p>
+                        <span>리액트 등의 프레임워크가 쓰여 서버 to 서버 크롤링이 불가능한경우 사용</span>
+                    </label> 
+                </div>
+                <div class="box14_6 cf">
+                    <input type="checkbox" name="api" id="api_6" value="2000000">
+                    <label for="api_6">
+                        <p>멀티 서버 크롤링</p>
+                        <p class="price">2,000,000</p>
+                        <span>크롤러 서버 블락 또는 크롤링 퍼포머스를 위해 다량의 서버를 활용해야 하는 경우</span>
+                    </label> 
+                </div>
+            </div>
+            <!--15-->
+            <div class="box15 ryu1 s_box cf">
+                <h2>기타</h2>
+                <div class="cf">
+                    <input type="checkbox" name="etc" id="etc" value="3000000">
+                    <label for="etc">
+                        <p>세부 코드 주석 및 기술서</p>
+                        <p class="price">3,000,000</p>
+                    </label> 
+                </div>
+            </div>
+
+
+            <!--bottom-->
+            <div class="totalBox cf">
+                <div class="total">예상 견적 : <span id="price"></span> 원</div>
+                <div class="notice">*자세한 사항은 문의 바랍니다.</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

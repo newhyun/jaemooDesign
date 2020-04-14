@@ -1,0 +1,713 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/*************************
+        default
+**************************/
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0 auto;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border: none;
+}
+
+#wrap{
+    width: 100%;
+}
+
+
+button:focus {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    resize: none;
+}
+
+
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*******container**********/
+#container{
+    margin-bottom: 350px;
+}
+
+.topBox{
+    width: 100%;
+    background: linear-gradient( to bottom, #bfd3e7, #fbfcfd );
+    height: 300px;
+    position: relative;
+}
+
+#header{
+    width: 960px;
+    margin: 0 auto;
+}
+#header h1{}
+#header h1 img{
+    width: 200px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.mainImg{
+    width: 460px;
+    position: absolute;
+    top: 17%;
+    right: 28%;
+}
+.mainImg img{
+    width: 100%;
+    opacity: 0.2;
+}
+
+
+/**/
+.mainBox{
+    background: linear-gradient( to bottom, #fbfcfd, #ffffff );
+}
+.s_box{
+    width: 960px;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 10px;
+}
+.price{
+    width: 80px;
+    font-size: 12px;
+    background: #94c7ee;
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+/**/
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"] + label{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+input[type="radio"] + label:hover{
+    background: #f9f9f9;
+}
+input[type="radio"]:checked + label{
+    border: 1px solid #c3d7e9;
+    background: #f9f9f9;
+    box-shadow: 0 1rem 1rem -0.25rem rgba(0, 0, 0, 0.2);
+}
+/**/
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"] + label{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+input[type="checkbox"] + label:hover{
+    background: #f9f9f9;
+}
+input[type="checkbox"]:checked + label{
+    border: 1px solid #c3d7e9;
+    background: #f9f9f9;
+    box-shadow: 0 1rem 1rem -0.25rem rgba(0, 0, 0, 0.2);
+}
+.s_box span{
+    clear: both;
+    display: block;
+    font-size: 13px;
+    color: #444444;
+    padding-top: 10px;
+}
+
+
+.font{
+    font-size: 15px;
+}
+/**/
+.box1{}
+.box1 div{
+    width: 350px;
+    float: left;
+}
+.box1 div.box1_1{
+    margin-right: 20px;
+}
+.box1 div p{}
+.box1 div span{
+    font-size: 13px;
+    color: #444444;
+}
+/*2222*/
+.box2{
+    margin-top: 70px;
+}
+.box2 div{
+    width: calc(25% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box2 div.box2_4{
+    margin-right: 0;
+}
+
+/*3*/
+.box3{
+    margin-top: 70px;
+}
+.box3 div{
+    width: calc(25% - 15px);
+    
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.box3 input[type="checkbox"] + label{
+    height: 135px;
+}
+.box3 div.box3_4,.box3 div.box3_8{
+    margin-right: 0;
+}
+
+
+/*4*/
+.box4{
+    margin-top: 70px;
+}
+.box4 div{
+    width: calc(25% - 15px);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.box4 div.box4_4{
+    margin-right: 0;
+}
+.box4 input[type="checkbox"] + label{
+    height: 140px;
+}
+
+/**/
+.box5{
+    margin-top: 50px;
+}
+.box5 div{
+    width: calc(33.33% - 15px);
+    float: left;
+}
+.box5 div.box5_1{
+    margin-right: 20px;
+}
+.box5 input[type="checkbox"] + label{
+    height: 130px;
+}
+
+/*6*/
+.box6{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.box6 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box6 div.box6_3{
+    margin-right: 0;
+}
+.box6 input[type="checkbox"] + label{
+    height: 140px;
+}
+
+/*4*/
+.box6{
+    margin-top: 70px;
+}
+.box6 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box6 div.box5_3{
+    margin-right: 0;
+}
+/*7*/
+.box7{
+    margin-top: 70px;
+}
+.box7 div{
+    width: calc(25% - 15px);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.box7 div.box7_4,.box7 div.box7_8{
+    margin-right: 0;
+}
+.box7 input[type="checkbox"] + label{
+    height: 155px;
+}
+/*8*/
+.box8{
+    margin-top: 70px;
+}
+.box8 div{
+    width: calc(25% - 15px);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.box8 div.box8_4{
+    margin-right: 0;
+}
+.box8 input[type="checkbox"] + label{
+    height: 155px;
+}
+/*9*/
+.box9{
+    margin-top: 70px;
+}
+.box9 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box9 div.box9_3{
+    margin-right: 0px;
+}
+.box9 input[type="checkbox"] + label{
+    height: 140px;
+}
+/*10*/
+.box10{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.box10 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box10 div.box10_3{
+    margin-right: 0px;
+}
+.box10 input[type="checkbox"] + label{
+    height: 140px;
+}
+
+/*11*/
+.box11{
+    margin-top: 70px;
+}
+.box11 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+.box11 div.box10_3{
+    margin-right: 0px;
+}
+.box11 input[type="checkbox"] + label{
+    height: 120px;
+}
+
+/*12*/
+.box12{
+    margin-top: 70px;
+}
+.box12 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box12 input[type="checkbox"] + label{
+    height: 120px;
+}
+
+/*13*/
+.box13{
+    margin-top: 70px;
+}
+.box13 div{
+    width: calc(25% - 15px);
+    float: left;
+    margin-right: 20px;
+}
+.box13 div.box13_4{
+    margin-right: 0px;
+}
+.box13 input[type="checkbox"] + label{
+    height: 160px;
+}
+
+/*14*/
+.box14{
+    margin-top: 70px;
+}
+.box14 div{
+    width: calc(33.33% - 15px);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.box14 div.box14_3,.box14 div.box14_6{
+    margin-right: 0px;
+}
+.box14 input[type="checkbox"] + label{
+    height: 140px;
+}
+
+/*15*/
+.box15{
+    margin-top: 70px;
+}
+.box15 div{
+    width: 230px;
+}
+.box15 input[type="checkbox"] + label{
+    height: auto;
+}
+
+/*16*/
+.box16{
+    margin-top: 70px;
+}
+.box16 div{
+    width:300px;
+}
+.box16 input[type="checkbox"] + label{
+    height: 140px;
+}
+
+/**/
+.totalBox{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    background: #d6e0ec;
+    text-align: center;
+    box-shadow: 0 0rem 1rem 0rem rgba(149, 149, 149, 0.5);
+}
+.totalBox .total{
+    font-size: 30px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    color: #06336a;
+}
+.totalBox .total span{}
+.totalBox .notice{
+    color: #444444;
+}
+
+@media screen and (max-width:1024px){
+    
+}
+@media screen and (max-width:1023px)  {
+    #container {
+        margin-bottom: 250px;
+    }
+    #header,.s_box{
+        width: 650px;
+    }
+    .mainImg {
+        width: 300px;
+        position: absolute;
+        top: 23%;
+        right: 16%;
+    }
+    .box1 div{
+        width: calc(50% - 10px);
+    }
+    .box2 input[type="radio"] + label{
+        height: 137px;
+    }
+    .box3 input[type="checkbox"] + label {
+        height: 165px;
+    }   
+    .box4 div {
+        width: calc(33.33% - 15px);
+    }
+    .box4 div.box4_3,.box4 div.box4_6{
+        margin-right: 0px;
+    }
+    .box4 div.box4_4 {
+        margin-right: 20px;
+    }
+    .box4 input[type="checkbox"] + label {
+        height: 160px;
+    }
+    .box5 input[type="checkbox"] + label {
+        height: 137px;
+    }
+    
+    .box6 input[type="checkbox"] + label {
+        height: 160px;
+    }
+
+    .box7 div{
+        width: calc(33.33% - 15px);
+    }
+    .box7 div.box7_3,.box7 div.box7_6,.box7 div.box7_9{
+        margin-right: 0;
+    }
+    .box7 div.box7_4, .box7 div.box7_8 {
+        margin-right: 20px;
+    }
+    
+    .box8 div{
+       width: calc(33.33% - 15px); 
+    }
+    .box8 div.box8_3,.box8 div.box8_6{
+        margin-right: 0;
+    }
+    .box8 div.box8_4{
+        margin-right: 20px;
+    }
+    .box11 input[type="checkbox"] + label {
+        height: 140px;
+    }
+    .box12 input[type="checkbox"] + label {
+        height: 138px;
+    }
+    .box13 input[type="checkbox"] + label {
+        height: 200px;
+    }
+    .box14 input[type="checkbox"] + label {
+        height: 160px;
+    }
+
+    
+
+
+}
+
+
+@media screen and (max-width:750px){
+    
+    #header, .s_box {
+        width: 450px;
+    }
+    .mainImg {
+        width: 272px;
+        position: absolute;
+        top: 23%;
+        right: 8%;
+    }
+    .box1 div{
+        width: 100%;
+        float: none;
+        
+    }
+    .box1 div.box1_1{
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .box2 div { 
+        width: calc(50% - 15px);
+    }
+    .box2 div.box2_2{
+        margin-right: 0;
+    }
+    .box2 div.box2_2,.box2 div.box2_3{
+        margin-bottom: 20px;
+    }
+    .box3 div{
+        width: calc(50% - 15px);
+    }
+    .box3 div.box3_2,.box3 div.box3_6{
+        margin-right: 0;
+    }
+    
+    .box3 input[type="checkbox"] + label {
+        height: 140px;
+    }
+    .box4 div {
+        width: 100%;
+    }   
+    .box4 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box5 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box5 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box6 div{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .box6 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box16 div{
+        width: 100%;
+    }
+    .box7 div {
+        width: 100%;
+    }
+    .box7 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box8 div {
+        width: 100%;
+    }
+    .box8 input[type="checkbox"] + label {
+        height: auto;
+    }
+    
+    .box9 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box9 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box10 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box10 input[type="checkbox"] + label{
+        height: auto;
+    }
+    .box11 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box11 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box12 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box12 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box12,.box13,.box11,.box10,.box9,.box8,.box6,.box5,.box15,.box14,.box7{
+        margin-top:30px;
+    }
+    .box2,.box3,.box16,.box4{
+        margin-top: 50px;
+    }
+    .box13 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box13 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box14 div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box14 input[type="checkbox"] + label {
+        height: auto;
+    }
+    .box15 div{
+        width: 100%;
+    }
+    
+    .totalBox .total{
+        font-size: 20px;
+        padding-top: 45px;
+    }
+    
+}
+
+
+@media screen and (max-width:414px){
+   #container {
+        margin-bottom: 150px;
+    }
+    .topBox{
+        height: 200px;
+    }
+    #header, .s_box {
+        width: 350px;
+    }
+    .mainImg{
+        width: 240px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    
+    .totalBox{
+        height: 100px;
+        
+    }
+    .totalBox .total {
+        font-size: 18px;
+        padding-top: 31px;
+    }
+    .notice{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
