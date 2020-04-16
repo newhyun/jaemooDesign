@@ -23,35 +23,6 @@ $(document).ready(function() {
         total = (_add * (platform / 100));
         
         
-//        total = (_add * ( platform / 100));
-        
-        
-        
-        
-        
-//        $('input[name="platform"]:checked').each(function() {
-//            
-//           
-//            if (this.value == '130') {
-//                
-//               var platform = 130;
-//            
-//                total = (_add * ( platform / 100));
-//                
-//            }else if (this.value == '150') {
-//                
-//                var platform = 150;
-//                total = (_add * ( platform / 100));
-//                
-//            }else{
-//                
-//                alert('asjhdjkasdh');
-//            
-//            }
-//            
-//        });
-//
-//        
         
         var _result = total.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,');
         
